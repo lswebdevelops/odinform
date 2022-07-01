@@ -62,7 +62,7 @@ body {
 }
 @font-face {
     font-family: thor;
-    src: url('/Norse-Bold.otf');
+    src: url('Norse-Bold.otf');
     /* font-family: 'Roboto', sans-serif; */
 }
 em {
@@ -94,7 +94,7 @@ p , div{
     line-height: 150px;
     text-align: center;
    
-    background-image: url(/argard.jpg);
+    background-image: url(argard.jpg);
     /* background-image: url(/images/ls_favicon.png); */
   
     background-repeat: no-repeat;
