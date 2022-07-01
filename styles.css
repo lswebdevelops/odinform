@@ -48,6 +48,13 @@ table {
     border-spacing: 0;
 }
 /* End of reseting browser default  */
+
+
+/* END SINGLE CATEGORY PAGE */
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+   
+
 body {
     font-weight: 800;
     font-family: 'Roboto', sans-serif;
@@ -101,13 +108,13 @@ p , div{
     background-size: cover;
    
     color: white;
-    border:  solid 1px firebrick;
+    
 }
 .right{
     width: 63vw;
     line-height: 150px;
     text-align: center;
-    border:  solid 1px firebrick;
+  
    
     color: white;
 }
@@ -183,8 +190,7 @@ p , div{
   
 
 input {
-    border: 2px solid blue;
-    
+     
     padding: 5px;
     border-radius: 5px;
     width: 90%;
@@ -199,7 +205,7 @@ input {
   
   
   input:invalid {
-    border-color: red;
+    border-color: firebrick;
   }
   button {
     background-color: rgb(91, 109, 70);
@@ -215,7 +221,7 @@ input {
     
   }
   input:valid {
-    border-color: grey;
+    border-color: green;
   }
   
 
@@ -225,21 +231,540 @@ input {
 
 
 
-/* END SINGLE CATEGORY PAGE */
-/********** Large devices only **********/
-@media (min-width: 1200px) {
-  
+
 }
 /********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-  
+@media (min-width: 778px) and (max-width: 1200px) {
+ 
+
+
+
+  body {
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+  }
+ 
+.RightLeft{
+    
+    display: flex;
+    flex-wrap: wrap;
+
 }
-/********** Extra small devices only **********/
-@media (max-width: 767px) {
+@font-face {
+    font-family: thor;
+    src: url('Norse-Bold.otf');
+    /* font-family: 'Roboto', sans-serif; */
+}
+em {
+    font-style: italic;
+}
+.letsCode{
+    position: relative;
+    top: 12rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-family: thor;
+   font-size: 6rem;
+    height: 12rem;
+}
+p , div{
+    line-height: 2rem;
+  }
+  
+
+.odinson{
+   position: relative;
+   top: 3.1rem;
+    width: 4rem;
+}
+.odin{
+    position: relative;
+    top: 2.7rem;
+     width: 4rem;
+
+
+}
+.left{
+    align-items: center;
+    width: 30%;
+    line-height: 150px;
+    text-align: center;
+   
+    background-image: url(argard.jpg);
+    /* background-image: url(/images/ls_favicon.png); */
+      background-repeat: no-repeat;
+    background-size: cover;
+       color: white;
+   
+}
+.right{
+    width: 70%;
+    line-height: 150px;
+    text-align: center;
+   
+   border: none;
+    color: white;
+}
+
+
+
+
+
+  
+  #container {
+    border: 0px solid transparent;
+    height: 100vh;
+    color: black;
+   
+ };
+  #container > * {
+    display: flex;
+    align-items: center;
+  }
+  .spanLets{
+    
+  }
+  .parSpace{
+    padding-top: 2rem;
+  }
+  #header {
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-bottom: 3rem;
+    padding-right: 5rem;
+    text-align: left;
+    
+    background-color: rgb(249, 250, 251);
+    box-shadow: 0 3px 10px 0  rgb(216, 217, 217);
+  }
+  
+  #mainContent {
+    
+    text-align: left;
+    height: 48vh;
+    background-color: white;
+    padding-left: 5rem;
+    padding-top: 2rem;
+
+    
+  }
+  #footer {
+    height: auto;
+    background-color: rgb(249, 250, 251);
+    box-shadow: 0 -3px 10px 0  rgb(216, 217, 217);
+    padding-left: 5rem;
+    text-align: left;
+  }
+  .login{
+    color:rgb(91, 109, 70) ;
+    text-decoration: none;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .grid-item {
+      
+   gap: 2rem;
+    font-size: 1.5rem;
+    text-align: left;
+  }
+  
+  .custom {
+    grid-column: 1/1.5;
+  }
+  
+
+input {
+     
+    padding: 5px;
+    border-radius: 5px;
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
   
   
+  
+  input:invalid {
+    border-color: firebrick;
+  }
+  button {
+    background-color: rgb(91, 109, 70);
+    width: 15rem;
+    border-radius: 5px;
+    height: 3rem;
+    color: white;
+    border: none;
+    font-size: 1.3rem;
+  }
+  button:hover {
+    background-color: #45a049;
+    
+  }
+  input:valid {
+    border-color: green;
+  }
+  
+
+
+}
+/**********  Small devices only **********/
+@media (max-width: 778px) {
+  
+         body {
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.2rem;
+      }
+     
+    .RightLeft{
+        
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    @font-face {
+        font-family: thor;
+        src: url('Norse-Bold.otf');
+        /* font-family: 'Roboto', sans-serif; */
+    }
+    em {
+        font-style: italic;
+    }
+    .letsCode{
+        position: relative;
+        top: 4rem;
+        background-color: rgba(0, 0, 0, 0.6);
+        font-family: thor;
+       font-size: 6rem;
+        height: 12rem;
+    }
+    p , div{
+        line-height: 2rem;
+      }
+      
+    
+    .odinson{
+        position: relative;
+        top: 1.2rem;
+        width: 5rem;
+      
+    }
+    .odin{
+        position: relative;
+        top: 0.7rem;
+        font-size: 5rem;
+        
+        
+    
+    
+    }
+    .left{
+        align-items: center;
+        width: 100%;
+        line-height: 150px;
+        text-align: center;
+       height: 40hv;
+       overflow: hidden;
+        background-image: url(argard.jpg);
+        /* background-image: url(/images/ls_favicon.png); */
+          background-repeat: no-repeat;
+        background-size: cover;
+           color: white;
+       
+    }
+    .right{
+        /* position: relative; */
+        height: 60hv;
+        width: 100%;
+        line-height: 150px;
+        text-align: center;
+    
+        color: white;
+    }
+    
+         
+      #container {
+        border: 0px solid transparent;
+        height: 100vh;
+        color: black;
+       
+     };
+      #container > * {
+        display: flex;
+        align-items: center;
+      }
+     
+      .parSpace{
+        padding-top: 2rem;
+      }
+      #header {
+        padding-top: 5rem;
+        padding-left: 1.5rem;
+        padding-bottom: 3rem;
+        padding-right: 2rem;
+        text-align: left;
+        height: 25%;
+        background-color: rgb(249, 250, 251);
+        box-shadow: 0 3px 10px 0  rgb(216, 217, 217);
+      }
+      
+      #mainContent {
+        
+        text-align: left;
+        font-size: 1.3rem;
+        height: 50%;
+        background-color: white;
+        padding-left: 1.5rem;
+        padding-right: 1rem;
+        padding-top: 2rem;
+    
+        
+      }
+      #footer {
+        height: 25%;
+        background-color: rgb(249, 250, 251);
+        box-shadow: 0 -3px 10px 0  rgb(216, 217, 217);
+        padding-left: 1.5rem;
+        padding-top: 2rem;
+        text-align: left;
+      }
+      .login{
+        color:rgb(91, 109, 70) ;
+        text-decoration: none;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+      
+      .grid-item {
+          
+       gap: 1rem;
+        font-size: 1rem;
+        text-align: left;
+      }
+      
+      
+      
+    
+    input {
+         
+        padding: 3px;
+        
+        width: 90%;
+        padding: 8px 12px;
+        margin: 3px 0;
+        font-size: 1rem;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      
+      
+      
+      input:invalid {
+        border-color: firebrick;
+      }
+      button {
+        background-color: rgb(91, 109, 70);
+        width: 15rem;
+        border-radius: 5px;
+        height: 3rem;
+        color: white;
+        border: none;
+        font-size: 1.3rem;
+      }
+      button:hover {
+        background-color: #45a049;
+        
+      }
+      input:valid {
+        border-color: green;
+      }
+      
+    
+
 }
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
-  
+    
+      body {
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.2rem;
+      }
+     
+    .RightLeft{
+        
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    @font-face {
+        font-family: thor;
+        src: url('Norse-Bold.otf');
+        /* font-family: 'Roboto', sans-serif; */
+    }
+    em {
+        font-style: italic;
+    }
+    .letsCode{
+        position: relative;
+        top: 2rem;
+        background-color: rgba(0, 0, 0, 0.6);
+        font-family: thor;
+       font-size: 6rem;
+        height: 12rem;
+    }
+    p , div{
+        line-height: 2rem;
+      }
+      
+    
+    .odinson{
+        position: relative;
+        top: 1.3rem;
+        width: 5rem;
+      
+    }
+    .odin{
+        position: relative;
+        top: 0.5rem;
+        font-size: 5rem;
+        
+    }
+    .left{
+        align-items: center;
+        width: 100%;
+        line-height: 150px;
+        text-align: center;
+       height: 40hv;
+       overflow: hidden;
+        background-image: url(argard.jpg);
+        /* background-image: url(/images/ls_favicon.png); */
+          background-repeat: no-repeat;
+        background-size: cover;
+           color: white;
+       
+    }
+    .right{
+        /* position: relative; */
+        height: 60hv;
+        width: 100%;
+        line-height: 150px;
+        text-align: center;
+    
+        color: white;
+    }
+    
+         
+      #container {
+        border: 0px solid transparent;
+        height: 100vh;
+        color: black;
+       
+     };
+      #container > * {
+        display: flex;
+        align-items: center;
+      }
+     
+      .parSpace{
+        padding-top: 2rem;
+      }
+      #header {
+        padding-top: 5rem;
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+        padding-right: 1rem;
+        text-align: left;
+        height: 20%;
+        background-color: rgb(249, 250, 251);
+        box-shadow: 0 3px 10px 0  rgb(216, 217, 217);
+      }
+      
+      #mainContent {
+        
+        text-align: left;
+        font-size: 1.3rem;
+        height: 30%;
+        background-color: white;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 2rem;
+    
+        
+      }
+      #footer {
+        height: auto;
+        background-color: rgb(249, 250, 251);
+        box-shadow: 0 -3px 10px 0  rgb(216, 217, 217);
+        padding-left: 1rem;
+        padding-top: 2rem;
+        text-align: left;
+      }
+      .login{
+        color:rgb(91, 109, 70) ;
+        text-decoration: none;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+      
+      .grid-item {
+          
+       gap: 1rem;
+        font-size: 1rem;
+        text-align: left;
+      }
+      
+      
+      
+    
+    input {
+         
+        padding: 3px;
+        
+        width: 90%;
+        padding: 8px 12px;
+        margin: 3px 0;
+        font-size: 1rem;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      
+      
+      
+      input:invalid {
+        border-color: firebrick;
+      }
+      button {
+        background-color: rgb(91, 109, 70);
+        width: 15rem;
+        border-radius: 5px;
+        height: 3rem;
+        color: white;
+        border: none;
+        font-size: 1.3rem;
+      }
+      button:hover {
+        background-color: #45a049;
+        
+      }
+      input:valid {
+        border-color: green;
+      }
+      
+    
 }
